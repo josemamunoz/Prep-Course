@@ -163,14 +163,12 @@ function esPrimo(numero) {
   if (numero == 0 || numero == 1 || numero == 4) {
     numeroPrimo = false;
   } else {
-    console.log("desde el else");
     for (let i = 2; i < numero; i++) {
       if (numero % i === 0) {
         numeroPrimo = false;
       }
     }
   }
-  console.log(numeroPrimo);
   return numeroPrimo;
 }
 
@@ -217,10 +215,8 @@ function doWhile(numero) {
   let sum = numero;
   do {
     sum += 5;
-    console.log(sum);
     i++;
   } while (i < 8);
-  console.log(sum);
   return sum;
 }
 
