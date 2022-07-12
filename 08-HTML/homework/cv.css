@@ -1,0 +1,22 @@
+body{
+    font-family: 'Lato'
+}
+.container{
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.encabezado{
+    background-color: #091D21;
+    color: white;
+    padding: 1rem;;
+}
+.titulos{
+    background-color: #999999;
+}
+#foto_perfil{
+    height:10rem;
+    border-radius: 5rem;   
+}
