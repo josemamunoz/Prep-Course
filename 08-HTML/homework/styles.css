@@ -1,0 +1,39 @@
+body{
+    background-image:url("https://images.pexels.com/photos/8474145/pexels-photo-8474145.jpeg");
+    text-align:center;
+}
+
+h1{    
+    color: deepskyblue;
+}
+
+img{
+    width: 400px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500;
+    background-color: lightseagreen;
+    padding: 50px;
+    border: 1px solid gray;
+}
+
+#spanId{
+    font-size:18px;
+    margin: 50px;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
